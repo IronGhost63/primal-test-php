@@ -1,0 +1,22 @@
+{
+    "name": "jirayu/test-form-submission",
+    "description": "Test for Primal",
+    "type": "project",
+    "require": {
+        "propel/propel": "~2.0@beta",
+        "particle/validator": "^2.3",
+        "izniburak/router": "^2.5",
+        "duncan3dc/blade": "^4.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay",
+            "email": "me@jirayu.in.th"
+        }
+    ]
+}

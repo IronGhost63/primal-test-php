@@ -1,0 +1,12 @@
+<database name="default" defaultIdMethod="native"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://xsd.propelorm.org/1.6/database.xsd"
+    namespace="App\Model"
+    >
+    <table name="products" phpName="Products">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="title" type="varchar" size="255" required="true"/>
+        <column name="description" type="longvarchar" required="true"/>
+        <column name="price" type="decimal" size="24" required="true"/>
+    </table>
+</database>
