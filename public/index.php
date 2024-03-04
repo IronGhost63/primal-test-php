@@ -4,6 +4,7 @@ namespace App;
 use Buki\Router\Router;
 
 require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../config/config.php';
 
 if ( ! defined( 'ABSPATH' ) ) {
     define( 'ABSPATH', __DIR__ . '/../' );
