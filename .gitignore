@@ -3,3 +3,4 @@ node_modules/
 database/database.sq3
 database/database.sqlite
 cache/
+public/main.css
