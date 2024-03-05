@@ -1,10 +1,8 @@
 <?php
-namespace App;
-
-use Buki\Router\Router;
-
 require __DIR__ . '/../vendor/autoload.php';
 require __DIR__ . '/../config/config.php';
+
+use Buki\Router\Router;
 
 // Return actual resource (for cli-server)
 if ( php_sapi_name() === 'cli-server' && preg_match('/\.(?:png|jpg|css|js)$/', $_SERVER["REQUEST_URI"])) {
