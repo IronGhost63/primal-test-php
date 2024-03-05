@@ -2,6 +2,8 @@
 <html lang="en">
 @include('partials.head')
 <body>
-  @yield('content')
+  <div class="lg:h-screen lg:flex items-center justify-center">
+    @yield('content')
+  </div>
 </body>
 </html>
