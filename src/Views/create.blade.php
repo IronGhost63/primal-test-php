@@ -1,10 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-  <form action="/create" method="post">
-    <input type="text" name="product_name" placeholder="Name">
-    <textarea name="product_description" cols="30" rows="10" placeholder="Description"></textarea>
-    <input type="number" name="product_price">
-    <input type="submit" value="Save">
-  </form>
+  <div class="container-md">
+    <h2 class="text-xl font-bold text-center mb-4">Add New Product</h2>
+    <form action="/create" method="post">
+      <div class="mb-2">
+        <input type="text" name="product_name" placeholder="Name" class="p-3 w-full border" required>
+      </div>
+      <div class="mb-2">
+        <textarea name="product_description" cols="30" rows="10" placeholder="Description" class="p-3 w-full border" required></textarea>
+      </div>
+      <div class="mb-2">
+        <input type="number" name="product_price" placeholder="Price" class="p-3 w-full border" required>
+      </div>
+      <div class="mb-2">
+        <input type="submit" value="Save" class="p-3 w-full border">
+      </div>
+    </form>
+  </div>
 @endsection
