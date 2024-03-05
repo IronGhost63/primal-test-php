@@ -4,6 +4,10 @@ namespace App;
 use duncan3dc\Laravel\BladeInstance;
 use Buki\Router\Http\Controller as BaseController;
 
+/**
+ * Base Controller
+ */
+
 abstract class Controller extends BaseController {
   protected $blade;
 
