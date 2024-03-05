@@ -18,10 +18,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Routing
 $router = new Router([
     'paths' => [
-      'controllers' => 'src/Controllers',
+      'controllers' => 'src/Controller',
     ],
     'namespaces' => [
-      'controllers' => 'App\Controllers',
+      'controllers' => 'App\Controller',
     ],
 ]);
 

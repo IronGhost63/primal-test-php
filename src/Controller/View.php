@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers;
+namespace App\Controller;
 
 use App\Controller;
 use App\Model\ProductsQuery;
