@@ -3,7 +3,7 @@ propel:
         connections:
             default:
                 adapter: sqlite
-                dsn: sqlite:./database/database.sqlite
+                dsn: sqlite:../database/database.sqlite
                 user: root
                 password: password
                 settings:

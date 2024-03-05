@@ -16,11 +16,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Routing
 $router = new Router([
     'paths' => [
-      'controllers' => 'src/Controller',
+        'controllers' => ABSPATH . './src/Controller',
     ],
     'namespaces' => [
-      'controllers' => 'App\Controller',
+        'controllers' => 'App\\Controller',
     ],
+    'debug' => false,
 ]);
 
 $router->get( '/', 'Home@Home' );

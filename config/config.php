@@ -4,7 +4,7 @@ $serviceContainer->checkVersion(2);
 $serviceContainer->setAdapterClass('default', 'sqlite');
 $manager = new \Propel\Runtime\Connection\ConnectionManagerSingle('default');
 $manager->setConfiguration(array (
-  'dsn' => 'sqlite:./database/database.sqlite',
+  'dsn' => 'sqlite:../database/database.sqlite',
   'user' => 'root',
   'password' => 'password',
   'settings' =>
